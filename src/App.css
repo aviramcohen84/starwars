@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  padding: 20
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border: 1px solid #000;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #000;
+}
+
+.row:last-child {
+  border-bottom: 0;
+}
+
+.cell {
+  padding: 15px;
+  flex: 1;
+  border-right: 1px solid #000;
+}
+
+.cell:last-child {
+  border-right: 0;
+}
